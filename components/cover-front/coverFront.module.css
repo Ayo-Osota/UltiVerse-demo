@@ -1,0 +1,6 @@
+.coverFront {
+    background-image: url("/images/cover-bg.png");
+    background-repeat: no-repeat;
+    background-position: right -50%;
+    background-size: contain;
+}
