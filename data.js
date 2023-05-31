@@ -1,32 +1,24 @@
+import { BsDiscord, BsTwitter } from "react-icons/bs";
+
 export const navLinks = [
     {
-        id: 1,
+        id: "001",
         path: '/',
-        text: 'UI/UX DESIGN',
-        subText: 'WEB2/WEB3'
+        content: 'UI/UX DESIGN'
     },
     {
-        id: 2,
+        id: "002",
         path: '/',
-        text: 'UI/UX DESIGN',
-        subText: 'WEB2/WEB3'
+        content: 'UI/UX DESIGN'
     },
     {
-        id: 3,
+        id: "003",
         path: '/',
-        text: 'UI/UX DESIGN',
-        subText: 'WEB2/WEB3'
+        content: 'UI/UX DESIGN'
     },
     {
-        id: 4,
+        id: "004",
         path: '/',
-        text: 'UI/UX DESIGN',
-        subText: 'WEB2/WEB3'
+        content: 'UI/UX DESIGN'
     },
-    {
-        id: 5,
-        path: '/',
-        text: 'UI/UX DESIGN',
-        subText: 'WEB2/WEB3'
-    }
 ]

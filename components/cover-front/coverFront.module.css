@@ -1,6 +1,7 @@
-.coverFront {
-    background-image: url("/images/cover-bg.png");
+.body {
+    background-image: url("/images/rect.png");
     background-repeat: no-repeat;
-    background-position: right -50%;
+    background-position: center;
     background-size: contain;
+    margin-inline: auto;
 }
