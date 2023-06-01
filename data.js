@@ -4,21 +4,21 @@ export const navLinks = [
     {
         id: "001",
         path: '/',
-        content: 'UI/UX DESIGN'
+        content: 'ABOUT'
     },
     {
         id: "002",
         path: '/',
-        content: 'UI/UX DESIGN'
+        content: <BsDiscord/>
     },
     {
         id: "003",
         path: '/',
-        content: 'UI/UX DESIGN'
+        content: <BsTwitter/>
     },
     {
         id: "004",
         path: '/',
-        content: 'UI/UX DESIGN'
+        content: 'LAUNCH ULTIVERSE'
     },
 ]

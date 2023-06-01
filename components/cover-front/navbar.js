@@ -11,7 +11,7 @@ const Nav = () => {
                 <Image src="/images/logo.svg" alt="multiverse" width={30} height={35}/>
             </div>
 
-            <div className="progress-bar w-[811px]">
+            <div className="progress-bar">
                 <div className="w-full h-full bg-gray-200 rounded-md z-10"></div>
             </div>
 
