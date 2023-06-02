@@ -1,0 +1,13 @@
+.video {
+    background-color: transparent;
+    background-image: url('/images/video.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 5% 13%;
+    cursor: pointer;
+    z-index: 1000;
+}

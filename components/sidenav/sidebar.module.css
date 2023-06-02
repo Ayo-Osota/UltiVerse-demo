@@ -1,0 +1,33 @@
+.wrapper {
+    z-index: 100;
+}
+
+.wrapper ul li:not(:first-child) {
+    margin-top: 1rem;
+}
+
+.link {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.wrapper nav a {
+    font-size: var(--fs-600);
+    font-weight: var(--fw-medium);
+    line-height: 27px;
+    text-transform: uppercase;
+    color: rgba(var(--text-rgb), 0.3);
+}
+
+.wrapper nav a:hover,
+.wrapper nav a:focus-visible,
+.wrapper nav a.active {
+    color: rgb(var(--accent-rgb));
+}
+
+.wrapper nav a:hover svg,
+.wrapper nav a:focus-visible svg,
+.wrapper nav a.active svg {
+    fill: rgb(var(--accent-rgb));
+}

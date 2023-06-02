@@ -1,0 +1,60 @@
+.container {
+    --max-width: 1700px;
+    --padding: 7rem;
+
+    width: min(var(--max-width), 100% - (var(--padding) * 2));
+    margin-inline: auto;
+
+    background-image: url(/images/rect.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+
+.modal {
+    position: absolute;
+    /** centers modal **/
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+    width: 78%;
+    height: 70%;
+    bottom: 40px;
+    top: 17%;
+
+    outline: none;
+    transform-origin: bottom right;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation: grow 0.5s ease-in;
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.videoWrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/multiverse-border.svg), url(/images/multiverse.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+@keyframes grow {
+    from {
+        transform: scale(0.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+

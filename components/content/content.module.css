@@ -1,0 +1,31 @@
+.wrapper > div:first-child {
+    margin-left: 5%;
+}
+
+.wrapper > div:first-child img {
+    width: 7%;
+}
+
+.body {
+    height: 50vh;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto 30.8%;
+}
+
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 2.6875rem;
+    z-index: -1000;
+}
+
+.textWrapper img {
+    width: 60%;
+    height: 25.2%;
+}
+
+.textWrapper img:last-child {
+    align-self: flex-end;
+}

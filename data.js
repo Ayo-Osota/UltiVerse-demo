@@ -20,5 +20,33 @@ export const navLinks = [
         id: "004",
         path: '/',
         content: 'LAUNCH ULTIVERSE'
+    }
+]
+
+export const sidenavLinks = [
+    {
+        id: "001",
+        path: '/',
+        content: 'MAP'
     },
+    {
+        id: "002",
+        path: '/',
+        content: 'MISSIONS'
+    },
+    {
+        id: "003",
+        path: '/',
+        content: 'CHARACTERS'
+    },
+    {
+        id: "004",
+        path: '/',
+        content: 'LOADOUTS'
+    },
+    {
+        id: "005",
+        path: '/',
+        content: 'EVENTS'
+    }
 ]
